@@ -4,7 +4,7 @@ function getList () {
   $.ajax({
     url: "http://157.230.17.132:3019/todos",
     method: "GET",
-    success: function(data, state){
+    success: function(data){
 
         }
 
@@ -20,7 +20,7 @@ function getList () {
 }
 
 function init() {
-
+  getList();
 }
 
 $(document).ready(init);

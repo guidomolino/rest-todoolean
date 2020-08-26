@@ -29,3 +29,8 @@ body{
   padding: 3px;
   text-align: center;
 }
+
+.user{
+  position: absolute;
+  bottom: 25px;
+}

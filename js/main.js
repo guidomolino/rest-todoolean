@@ -5,7 +5,7 @@ function getList () {
     url: "http://157.230.17.132:3019/todos",
     method: "GET",
     success: function(data){
-
+          
         }
 
       }
